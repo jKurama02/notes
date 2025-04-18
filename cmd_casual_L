@@ -1,0 +1,2 @@
+get IP = hostname -I | ifconfig | ip addr show
+get public IP = curl ifconfig.me | curl ipinfo.io/ip
